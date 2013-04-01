@@ -31,6 +31,9 @@ public class MyLocation extends Activity {
 			String locationprovider = mLocationManager.getBestProvider(criteria, true);
 			Location mLocation = mLocationManager.getLastKnownLocation(locationprovider);
 			
+			Log.i(TAG, "lat: " + mLocation.getLatitude());
+			Log.i(TAG, "long: " + mLocation.getLongitude());
+			
 			tv.setText("Last location lat: " + mLocation.getLatitude() + "  long: " + mLocation.getLongitude());
 		
 		}	
