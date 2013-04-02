@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Congress finder</string>
+    <string name="app_name">Congress Finder</string>
     <string name="location_action_settings">Location service</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_my_location">MyLocation</string>
+    <string name="hello_world">Main Activity</string>
+    <string name="title_activity_my_location">My Location Demonstrator</string>
+    <string name="data_Provider">Data Provider Services</string>
+    <string name="Calling_services">Calling Services</string>
 
 </resources>

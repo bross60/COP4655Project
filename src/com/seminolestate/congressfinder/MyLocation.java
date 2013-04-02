@@ -2,7 +2,6 @@ package com.seminolestate.congressfinder;
 
 import android.os.Bundle;
 import android.app.Activity;
-//import android.view.Menu;
 import android.content.Context;
 import android.location.Criteria;
 import android.location.Location;
@@ -36,9 +35,9 @@ public class MyLocation extends Activity {
 			
 			tv.setText("Last location lat: " + mLocation.getLatitude() + "  long: " + mLocation.getLongitude());
 		
-		}	
-		catch(Exception e) {
+		} catch(Exception e) {
 			Log.e(TAG, "Exception error: " + e.toString());
 		}
+		
 	}
 }
